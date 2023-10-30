@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+  font-family: 'K2D', sans-serif, 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  color: blueviolet;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+}
+
+
+.input {
+  padding: 6px 12px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid rgb(177, 177, 177);
+  font-size: 14px;
+ 
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid rgb(225, 125, 255);
+}
+.button{
+  padding: 5px;
+  border-radius:5px ;
+  background-color: rgb(237, 192, 255);
+  border:solid 1px;
+  
+}
+.content-general {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px 5px;
+}
+#formulario_boton {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow:0px 0px 5px rgba(0, 0, 0, 15) ;
+  background-color: rgba(234, 203, 250, 0.438);
+  width: 50%;
+  height: 100px;
+  margin-left: 25%;
+}
+
+.main-content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5px;
+  justify-content: flex-end;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.11);
+  background-color: rgba(240, 226, 253, 0.893);
+}
+
+#listarImagenes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 8px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'wght' 300,
+  'GRAD' 0;
+  font-size: 18px !important;
+}
+
+.red-color{
+  color: red;
+  font-variation-settings:
+  'FILL' 1;
+}
+
+.green-color{
+  color: green;
+  font-variation-settings:
+  'FILL' 0;
+}
+
+.content-info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.content-info > p {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  align-items: center;
+}
+
+.image-preview > img {
+  display: block;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  border-radius: 8px;
+} 
+.message{
+  color: red;
+}

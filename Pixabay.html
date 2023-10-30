@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Api pixabay</title>
+</head>
+<body>
+  <section class="content-general">
+    <h1> Conexión Api pixabay</h1>
+    <form id="formulario_boton">
+     <label class="input-content">
+      <input class="input" type="text" name="busqueda" id="busqueda" placeholder="ingresa la imagen que deseas buscar..."> 
+    </label> 
+      <input type="submit" name="" id="" value="Buscar imagen" class="button">
+    <div class="error" id="error"></div>
+    </form>
+    <div>
+      <div id="listarImagenes">
+        <!-- cards de imagenes en colomnas -->
+      </div>
+      <div>
+        <!-- botones de paginacion -->
+      </div>
+    </div>
+  </section>
+  <script src="ApiPixabay.js"></script>
+</body>
+</html>
